@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+section {
+    margin-bottom: 50px;
+}
+
 .orange {
     color: orange;
 }
@@ -16,7 +20,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 20px;
 }
@@ -24,6 +28,7 @@ section {
 .half-width {
     width: 50%;
     padding-left: 2%;
+    margin: 3%;
 }
 
 .half-width img {
@@ -43,4 +48,26 @@ section {
     background-image: url(./image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.experience-box {
+    box-shadow: 0px 3px 8px gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.full-stack {
+    border-left: 7px solid tomato;
+}
+
+.baby-dev {
+    border-left: 7px solid blue;
 }
